@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url(download.jpg);
+  background-size: cover;
+  height: 1900px;
+}
+
+.nav-link {
+  padding-top: 45px;
+
+  color: white;
+}
+
+.logo {
+}
