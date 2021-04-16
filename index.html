@@ -10,35 +10,126 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
   <title>Tiny Horse</title>
 </head>
 
 <body>
-  test
-  <header>
-    <div class="background">
-      <ul class="nav justify-content-end">
 
-        <a class="nav-link active" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">WORK</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">CAREERS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">INTERNS</a>
-        </li>
-        <li class="nav-item"></li>
-        <a class="nav-link" href="#">CONTACT</a>
-        </li>
-      </ul>
+    <div class="background">
+
+      <!-- navbar logo and links-->
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="navbar-logo">
+            <a class="navbar-brand" href="#"><img class="logo" src="images/tiny-horse-logo.png" alt="tiny horse logo"></a>
+          </div>
+          <div class="navbar-links">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CAREERS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">INTERNS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Homepage message -->
+      
+      <div class="intro">
+        <p>
+          Rooted in the intersection of brand and entertainment, 
+          we build audiences and move people by creating for what’s next.
+        </p>
+        <p>__</p>
+      </div>
     </div>
-  </header>
+
+      
+
+
+
+  <!-- Carousel -->
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/tiny-horse-abc.png" class="d-block w-100" alt="tiny horse abc">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-BBC-v2.png" class="d-block w-100" alt="tiny horse bbc">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-cbs.png" class="d-block w-100" alt="tiny horse cbs">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-cla.png" class="d-block w-100" alt="tiny horse cla">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-feetures.png" class="d-block w-100" alt="tiny horse feetures">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-GOTR-1.png" class="d-block w-100" alt="tiny horse gotr">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-ICFOlson-v2.png" class="d-block w-100" alt="tiny horse ICFOlson">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-ITV-v2.png" class="d-block w-100" alt="tiny horse ITV">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-MountainKhakis.png" class="d-block w-100" alt="tiny horse mountain khakis">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-ProcterGamble-v2.png" class="d-block w-100" alt="tiny horse P&G">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-RadicalMedia.png" class="d-block w-100" alt="tiny horse radical media">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-Televisa-v2.png" class="d-block w-100" alt="tiny horse televisa">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-Viacom.png" class="d-block w-100" alt="tiny horse viacom">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-Walmart.png" class="d-block w-100" alt="tiny horse walmart">
+      </div>
+      <div class="carousel-item">
+        <img src="images/tiny-horse-Wilderness.png" class="d-block w-100" alt="tiny horse wilderness">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+  </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
