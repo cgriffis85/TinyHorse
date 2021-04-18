@@ -44,7 +44,7 @@
   margin: 50px auto 50px auto;
   padding-bottom: 100px;
   font-size: 56px;
-  font-family: 'Cardo', serif;
+  font-family: "Cardo", serif;
   color: white;
 }
 
@@ -77,4 +77,71 @@
   .navbar {
     background-color: transparent;
   }
+}
+
+.contact {
+  background-image: url(images/Tiny-Horse-Marketing-Agency-Contact.jpg);
+  background-size: cover;
+  width: 100%;
+  max-height: 400%;
+  margin: 0px;
+  padding: 5%;
+  font-size: 40px;
+  font-family: "Cardo", serif;
+  color: white;
+}
+
+.contact_font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactUs:link,
+.contactUs:visited,
+.contactUs:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.footer {
+  color: #cccccc;
+  background-color: #212326;
+  padding-bottom: 100px;
+}
+.col-sm {
+  padding-top: 8%;
+  line-height: 4;
+}
+
+#logo2 {
+  margin-top: 2px;
+}
+
+.logo3 {
+  width: 200px;
+}
+
+.copyright {
+  color: rgb(179, 174, 168);
+  background-color: #212326;
+  font-size: 12px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.ppl:visited,
+.ppl:link {
+  color: rgb(179, 174, 168);
+  text-decoration: none;
+}
+
+.ppl:hover {
+  color: #db5e4c;
+}
+
+.emailLink:visited,
+.emailLink:link {
+  color: #cccccc;
+  text-decoration: none;
 }
