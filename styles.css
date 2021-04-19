@@ -41,16 +41,19 @@
 
 .intro {
   width: 90%;
+  margin: 50px auto 0 auto;
   margin: 50px auto 50px auto;
   padding-bottom: 100px;
   font-size: 56px;
   font-family: "Cardo", serif;
   color: white;
+  border-bottom: transparent;
 }
 
 #carouselExampleControls {
   background-image: linear-gradient(to right, #557d91, #db5e4c);
   height: 150px;
+
 }
 
 .carousel-item {
@@ -72,11 +75,94 @@
   background-color: transparent;
   border: none;
 }
+.btn_section {
+  background-color: #f4eae9;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.btn_intro {
+  width: 85%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 32px;
+  font-family: big-caslon-fb,serif;
+}
+
+.btn_div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.btn {
+  background-color: #f4eae9;
+  padding: 20px 10px;
+  border: 2px solid #212326;
+  border-radius: 0;
+  font-family: big-caslon-fb,serif;
+  font-size: 32px;
+}
+
+.btn_msg {
+  font-family: -macosx,sans-serif !important;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.contact {
+	@@ -145,3 +181,24 @@
+  color: #cccccc;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .navbar {
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .btn_div {
+    flex-direction: column;
+  }
+
+  .btn_container {
+    margin: 20px auto 0 auto;
+    width: 80%;
+  }
+
+  .btn_msg {
+    text-align: center;
+  }
+}
+
+
+
+
 
 @media only screen and (min-width: 480) {
   .navbar {
     background-color: transparent;
   }
+}
+
+.quoteSec {display: flex;
+  justify-content: space-around;
+  
+}
+
+.quoteContainer {
+  width: 25%;
+
+
 }
 
 .contact {
@@ -85,6 +171,7 @@
   width: 100%;
   max-height: 400%;
   margin: 0px;
+  
   padding: 5%;
   font-size: 40px;
   font-family: "Cardo", serif;
@@ -142,6 +229,30 @@
 
 .emailLink:visited,
 .emailLink:link {
-  color: #cccccc;
+  color: rgb(179, 174, 168);;
   text-decoration: none;
 }
+
+.quote{
+
+  font-family: "Cardo", serif;
+  font-size: 25px;
+  
+
+}
+.col {display: flex;
+  flex-direction: column;
+
+}
+
+.testSection {
+  margin: 5px;
+  
+}
+
+.person {
+  
+  
+
+}
+ 
